@@ -1,0 +1,95 @@
+.homepage {
+  margin: 0 auto;
+  padding: 20px;
+ 
+}
+
+@media only screen and (max-width: 412px) {
+  .homepage{
+    padding: 10px;
+  }
+}
+.welcome{
+  color: antiquewhite;
+  background-image: url('C:\xampp\htdocs\otrmusda\otrmusda\src\Photos\waterfall moment.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.welcome ::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(red, green, blue, alpha);
+}
+.ourservices{
+  color: antiquewhite;
+  background-image: url('C:\xampp\htdocs\otrmusda\otrmusda\src\Photos\video shooting.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(10px);
+}
+.family{
+  color: antiquewhite;
+  background-image: url('C:\xampp\htdocs\otrmusda\otrmusda\src\Photos\the family.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(10px);
+}
+.aboutOtr{
+ 
+}
+.thefamily{
+  
+}
+.services{
+  
+}
+
+
+
+
+
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
