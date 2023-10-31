@@ -1,11 +1,64 @@
+/*These are homepage styling*/
+/*Div class stylings*/
+h4{
+  margin-top: 10px;
+}
+.watermoment img{
+  width: 100%;
+  height: 50%;
+  object-fit: contain;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.homepage{
+  background-color:#e5e1eb;
+  padding: 5px;
+}
+.aboutOTR{
+  position: relative;
+  background-color:white;
+  border-radius: 10px;
+  padding: 18px;
+  margin-bottom: 8px;
 
-
-
-
-
-
-
-
+}
+.ourServices{
+  position: relative;
+  background-color:white;
+  border-radius: 10px;
+  padding: 18px;
+  margin-bottom: 8px;
+}
+.theFamily{
+  position: relative;
+  background-color:white;
+  border-radius: 10px;
+  padding: 18px;
+  
+}
+/*Button stylings*/
+.aboutOtrBtn{
+  background-color: #9781e8;
+  position:absolute;
+  right: 15px;
+  bottom: 10px;
+  border-radius: 5px;
+}
+.services{
+  background-color: #9781e8;
+  position:absolute;
+  right: 15px;
+  bottom: 10px;
+  border-radius: 5px;
+}
+.thefamily{
+  background-color: #9781e8;
+  position:absolute;
+  right: 15px;
+  bottom: 10px;
+  border-radius: 5px;
+}
+/************************************************/
 .App {
   text-align: center;
 }
