@@ -1,0 +1,20 @@
+{
+  "name": "otrmusda",
+  "version": "1.0.0",
+  "description": "A church ministry website",
+  "main": "index.js",
+  "scripts": {
+    "start": "node App.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/TonnyNyauke/otrmusda.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TonnyNyauke/otrmusda/issues"
+  },
+  "homepage": "https://github.com/TonnyNyauke/otrmusda#readme"
+}
