@@ -1,10 +1,22 @@
+import React from "react";
+
+import {Blog, Footer, Possibility, Features, WhatOTR, Header } from './containers';
+import { Cta, Navbar } from './components';
 import './App.css';
-import HomePage from './HomePage/HomePage';
 
 function App() {
   return (
     <div className="App">
-      <HomePage/>
+      <div className="gradient_bg">
+        <Navbar />
+        <Header />
+      </div>
+      <WhatOTR />
+      <Features />
+      <Possibility />
+      <Cta />
+      <Blog />
+      <Footer />
     </div>
   );
 }
