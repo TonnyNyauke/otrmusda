@@ -1,5 +1,6 @@
 import React from 'react'
 import waterfallMoment from '../Photos/waterfall_moment.jpg';
+import SifaZako from '../Photos/sifa_zako.mp4'
 
 const HomePage = () => {
   return (
@@ -16,6 +17,11 @@ const HomePage = () => {
       </div>
       <div className='ourServices'>
         <h4>WHAT WE DO</h4>
+        <div className='introvideo'>
+          <video  controls autoPlay muted>
+            <source src = {SifaZako} type='video/mp4'/>
+          </video>
+        </div>
         <p>
           Round Table Talks (RTT), Family and Relationships, Live Podcasts,
           Rich Gospel music, Bible Studies and many more; our services are
@@ -26,7 +32,7 @@ const HomePage = () => {
       </div>
       <div className='theFamily'>
         <div className='watermoment'>
-        <h4 className='meetthefamily'>MEET THE FAMILY</h4>
+          <h4 className='meetthefamily'>MEET THE FAMILY</h4>
           <img src={waterfallMoment} alt='Waterfall Moment'></img>
         </div>
         <p>
