@@ -65,6 +65,16 @@
   border-radius: 5px;
 }
 /************************************************/
+/********These are Services Stylings************/
+.servicesPage{
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+.serviceBtn{
+  flex: 0 0 auto;
+}
+/*************************************************/
 .App {
   text-align: center;
 }

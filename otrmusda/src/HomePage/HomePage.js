@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 const HomePage = () => {
   const navigate = useNavigate();
 
-  function handleServicesClick(){
+  function handleClick(){
     navigate('services');
   }
   return (
@@ -19,7 +19,7 @@ const HomePage = () => {
         and may you be blessed as you join this
         great family.
         </p>
-        <button class = 'aboutOtrBtn'>About OTR</button>
+        <button className = 'aboutOtrBtn'>About OTR</button>
       </div>
       <div className='ourServices'>
         <h4>WHAT WE DO</h4>
@@ -34,7 +34,7 @@ const HomePage = () => {
           meant to lift your soul from a world of care to an atmosphere of peace,
           comfort and love.
         </p>
-        <button class = 'services' onClick={handleServicesClick}>Our Services</button>
+        <button className = 'services' onClick={handleClick}>Our Services</button>
       </div>
       <div className='theFamily'>
         <div className='watermoment'>
@@ -47,7 +47,7 @@ const HomePage = () => {
           Our fun moments bond us together, and they will never fail
           to put a smile on your face.
         </p>
-        <button class ='thefamily'>Meet the family</button>
+        <button className ='thefamily'>Meet the family</button>
       </div>
     </div>
   )
