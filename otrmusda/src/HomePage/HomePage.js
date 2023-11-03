@@ -1,8 +1,14 @@
 import React from 'react'
 import waterfallMoment from '../Photos/waterfall_moment.jpg';
 import SifaZako from '../Photos/sifa_zako.mp4'
+import { useNavigate } from 'react-router-dom';
 
 const HomePage = () => {
+  const navigate = useNavigate();
+
+  function handleServicesClick(){
+    navigate('services');
+  }
   return (
     <div className='homepage'>
       <div className = 'aboutOTR'>
@@ -28,7 +34,7 @@ const HomePage = () => {
           meant to lift your soul from a world of care to an atmosphere of peace,
           comfort and love.
         </p>
-        <button class = 'services'>Our Services</button>
+        <button class = 'services' onClick={handleServicesClick}>Our Services</button>
       </div>
       <div className='theFamily'>
         <div className='watermoment'>
