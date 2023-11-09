@@ -6,11 +6,11 @@ import RoundTT from './RoundTT'
 import Podcasts from './Podcasts'
 import FamilyRelationships from './FamilyRelationships'
 
-function Services() {
+function Services({children}) {
   const navigateBtn = useNavigate();
 
   function handleClicks(path){
-    navigateBtn(path);
+    navigateBtn('/services/' + path);
   }
 
   const element = useRoutes([
@@ -20,6 +20,7 @@ function Services() {
     <button className='rountTTBtn' onClick={() => handleClicks('roundtt')}>RTT</button>
     <button className='familyBtn' onClick={() => handleClicks('family')}>Family & Relationships</button>
     <button className='podcastsBtn' onClick={() => handleClicks('podcasts')}>Podcasts</button>
+    {children}
     </div>},
     { path: 'music', element: <Music /> },
     { path: 'biblestudies', element: <BibleStudies /> },

@@ -1,8 +1,11 @@
 import React from 'react'
+import Services from './Services'
 
 function BibleStudies() {
   return (
-    <div>BibleStudies</div>
+    <Services>
+      <p>Bible Studies</p>
+    </Services>
   )
 }
 

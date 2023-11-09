@@ -1,8 +1,10 @@
 import React from 'react'
+import Services from './Services'
 
 function Podcasts() {
   return (
-    <div>Podcasts</div>
+    <Services>{
+      <p>Podcasts</p>}</Services>
   )
 }
 

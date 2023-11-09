@@ -1,8 +1,21 @@
 import React from 'react'
+import Services from './Services'
+import { useNavigate } from 'react-router-dom'
 
 function FamilyRelationships() {
+  const navigate = useNavigate
   return (
-    <div>FamilyRelationships</div>
+    <Services>
+      {
+        <div>
+          <p>
+        FamilyRelationships
+        </p>
+        <button>Services</button>
+        </div>
+      
+        }
+      </Services>
   )
 }
 
